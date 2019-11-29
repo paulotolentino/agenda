@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.item">
+
+    <ImageView
+        android:id="@+id/imgTelefone"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/phone" />
+
+    <TextView
+        android:id="@+id/nomeContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+</GridLayout>
