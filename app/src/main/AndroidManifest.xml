@@ -3,6 +3,8 @@
     package="com.techboxsys.agendacontato">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,7 +16,7 @@
         <activity android:name=".views.Contato" />
         <activity
             android:name=".views.MainActivity"
-            android:label="@string/app_name"
+            android:label="Agenda de Contatos"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

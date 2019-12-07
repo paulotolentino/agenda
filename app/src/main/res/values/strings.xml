@@ -11,4 +11,9 @@
     <string name="apelido">Apelido</string>
     <string name="telefone">Telefone</string>
     <string name="user">User</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">Y8l6BtCuSnEt0xNRjPkSiOiXVsGDtQz01Na9yvZK</string>
+    <string name="back4app_client_key">jvvUBlVx5xpOVu44NKgSL2Jf80lG2ethDMBaAMrL</string>
 </resources>

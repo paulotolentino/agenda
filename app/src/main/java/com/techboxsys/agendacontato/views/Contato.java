@@ -161,7 +161,7 @@ public class Contato extends AppCompatActivity {
 
     private void RemoverContato() {
         try {
-            this.ContatosAlocados.removerContato(this.ContatoTelefonico.getId());
+            int result = this.ContatosAlocados.removerContato(ContatoTelefonico);
             EnviarMensagemCurta("Sucesso!");
             finish();
         }catch (Exception e){
